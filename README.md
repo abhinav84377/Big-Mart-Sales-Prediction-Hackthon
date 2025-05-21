@@ -4,6 +4,7 @@
 Big Mart Sales Prediction – Thought Process and Experimentation Summary
 Problem Statement
 The objective of this project was to predict sales for Big Mart outlets using historical data. The approach focused on exploratory data analysis, feature engineering, and model selection to achieve optimal performance.
+
 **Exploratory Data Analysis (EDA)**
 
   - Descriptive Statistics & Distribution Check
@@ -17,19 +18,23 @@ The objective of this project was to predict sales for Big Mart outlets using hi
   - Tier 1 cities exhibit lower fat content consumption than Tier 3 cities.
   - Tier 3 cities have higher item sales across all product categories.
   - Supermarket 3 showed a high variance in outlet sales.
-Feature Correlation & Data Integrity Checks
+    
+**Feature Correlation & Data Integrity Checks**
 - Investigated correlations among features but found no significant relationships.
 - Confirmed the absence of multicollinearity and cardinality issues.
 - Identified outliers but opted to retain them, given the robustness of tree-based models.
-Feature Engineering
+  
+**Feature Engineering**
 - Missing Value Imputation
 - Imputed missing values based on statistical methods:
 - Mean for numerical variables.
 - Mode for categorical variables, ensuring feature relevance.
-Encoding & Scaling
+  
+**Encoding & Scaling**
 - Applied One-hot encoding to categorical features for effective model learning.
 - Standardized numerical features to enhance convergence in models utilizing gradient descent.
-Modeling Approach
+  
+**Modeling Approach**
 - Baseline to Advanced Models
 - Started with a Decision Tree model as a baseline approach.
 - Progressed to more advanced ensemble methods, including XGBoost, to improve predictive accuracy.
