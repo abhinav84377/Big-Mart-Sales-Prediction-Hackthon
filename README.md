@@ -5,10 +5,13 @@ Big Mart Sales Prediction – Thought Process and Experimentation Summary
 Problem Statement
 The objective of this project was to predict sales for Big Mart outlets using historical data. The approach focused on exploratory data analysis, feature engineering, and model selection to achieve optimal performance.
 **Exploratory Data Analysis (EDA)**
+
   - Descriptive Statistics & Distribution Check
   - Initial analysis included checking summary statistics to understand the overall data distribution.
   - Examined skewness in the dependent variable to assess the presence of extreme values.
+    
 **Outlet Sales Analysis & Insights**
+
   - Conducted EDA to analyze trends in sales across different outlet types.
   - Observed key insights:
   - Tier 1 cities exhibit lower fat content consumption than Tier 3 cities.
