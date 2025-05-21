@@ -8,13 +8,13 @@ Exploratory Data Analysis (EDA)
 - Descriptive Statistics & Distribution Check
 - Initial analysis included checking summary statistics to understand the overall data distribution.
 - Examined skewness in the dependent variable to assess the presence of extreme values.
-- Outlet Sales Analysis & Insights
+Outlet Sales Analysis & Insights
 - Conducted EDA to analyze trends in sales across different outlet types.
 - Observed key insights:
 - Tier 1 cities exhibit lower fat content consumption than Tier 3 cities.
 - Tier 3 cities have higher item sales across all product categories.
 - Supermarket 3 showed a high variance in outlet sales.
-- Feature Correlation & Data Integrity Checks
+Feature Correlation & Data Integrity Checks
 - Investigated correlations among features but found no significant relationships.
 - Confirmed the absence of multicollinearity and cardinality issues.
 - Identified outliers but opted to retain them, given the robustness of tree-based models.
@@ -23,7 +23,7 @@ Feature Engineering
 - Imputed missing values based on statistical methods:
 - Mean for numerical variables.
 - Mode for categorical variables, ensuring feature relevance.
-- Encoding & Scaling
+Encoding & Scaling
 - Applied One-hot encoding to categorical features for effective model learning.
 - Standardized numerical features to enhance convergence in models utilizing gradient descent.
 Modeling Approach
