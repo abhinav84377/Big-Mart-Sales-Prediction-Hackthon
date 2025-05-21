@@ -47,6 +47,7 @@ The objective of this project was to predict sales for Big Mart outlets using hi
 - Used GridSearchCV to systematically find the best hyperparameters for selected models.
 - AutoML Exploration could have been done to reduce manual work
 - Considered AutoML frameworks as an alternative to manual feature selection and hyperparameter tuning.
+- At the end checking which features important for dependent variable
   
 **Conclusion**
 The methodology employed a structured pipeline—EDA, feature engineering, and model optimization—to create a robust predictive model for Big Mart sales. The insights generated provide valuable business perspectives, while model selection ensures scalability and accuracy.
