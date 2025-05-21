@@ -1,7 +1,8 @@
 # Big-Mart-Sales-Prediction-Hackthon
 
 
-Big Mart Sales Prediction – Thought Process and Experimentation Summary
+**Big Mart Sales Prediction – Thought Process and Experimentation Summary**
+
 Problem Statement
 The objective of this project was to predict sales for Big Mart outlets using historical data. The approach focused on exploratory data analysis, feature engineering, and model selection to achieve optimal performance.
 
@@ -14,10 +15,13 @@ The objective of this project was to predict sales for Big Mart outlets using hi
 **Outlet Sales Analysis & Insights**
 
   - Conducted EDA to analyze trends in sales across different outlet types.
-  - Observed key insights:
+  - Observed key insights like:
+  - ItemMRP has high correlation with Overall Outlet sales
+  - Household items have highest average retail prices
   - Tier 1 cities exhibit lower fat content consumption than Tier 3 cities.
   - Tier 3 cities have higher item sales across all product categories.
   - Supermarket 3 showed a high variance in outlet sales.
+  - etc.
     
 **Feature Correlation & Data Integrity Checks**
 - Investigated correlations among features but found no significant relationships.
@@ -29,20 +33,22 @@ The objective of this project was to predict sales for Big Mart outlets using hi
 - Imputed missing values based on statistical methods:
 - Mean for numerical variables.
 - Mode for categorical variables, ensuring feature relevance.
+- This could have been better using more advanced inputation methods like KNN imputation or Matrix Factorization or Regression based models 
   
 **Encoding & Scaling**
 - Applied One-hot encoding to categorical features for effective model learning.
-- Standardized numerical features to enhance convergence in models utilizing gradient descent.
+- Standardized numerical features to enhance convergence in models
   
 **Modeling Approach**
-- Baseline to Advanced Models
+- Base to Advanced Models
 - Started with a Decision Tree model as a baseline approach.
 - Progressed to more advanced ensemble methods, including XGBoost, to improve predictive accuracy.
 - Hyperparameter Tuning
 - Used GridSearchCV to systematically find the best hyperparameters for selected models.
-- AutoML Exploration
+- AutoML Exploration could have been done to reduce manual work
 - Considered AutoML frameworks as an alternative to manual feature selection and hyperparameter tuning.
-Conclusion
+  
+**Conclusion**
 The methodology employed a structured pipeline—EDA, feature engineering, and model optimization—to create a robust predictive model for Big Mart sales. The insights generated provide valuable business perspectives, while model selection ensures scalability and accuracy.
 
 
